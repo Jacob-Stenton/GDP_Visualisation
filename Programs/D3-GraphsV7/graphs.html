@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>D3 v7</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1 id="mainTitle">UK Gross Domestic Product (1948 - 2023)</h1>
+    </nav>
+    <div id="descripDiv">
+      <p id="graphDescription">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid facere
+        quibusdam deserunt optio ducimus natus, at impedit non tempore quos
+        mollitia est recusandae neque odit, harum incidunt hic illo consectetur.
+      </p>
+    </div>
+    <div class="visContainer">
+      <div class="displayArea"></div>
+      <div class="visMenu">
+        <h2>Graph Menu</h2>
+        <button class="gdpButton button">GDP</button>
+        <button class="energyButton button">Energy</button>
+        <button class="dualButton button">Energy Price</button>
+        <div id="readerContainer">
+          <div id="dataReader">
+            <p class="dataTitles">Year</p>
+            <p id="yearReadOut">YEAR</p>
+            <br />
+            <p class="dataTitles">Data</p>
+            <p id="dataReadOut">DATA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="infoCenter"></div>
+    <footer>
+      <h5>J_S</h5>
+    </footer>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

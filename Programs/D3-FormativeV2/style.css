@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(240, 240, 240)
+}
+
+nav {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: dashed 2px black;
+}
+
+.visContainer {
+    display: flex;
+}
+
+.displayArea {
+    width: 85%;
+    height: 80svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visMenu {
+    background-color: rgb(220, 220, 220);
+    width: 15%;
+    border-left: solid 2px black;
+}
+
+footer {
+    background-color: rgb(220, 220, 220);
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: black;
+    border-top: dashed 2px black;
+}

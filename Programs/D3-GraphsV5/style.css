@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+nav {
+    background-color: rgb(50, 50, 50);
+    padding-left: 10px;
+    color: whitesmoke;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.visContainer {
+    display: flex;
+    
+}
+
+.displayArea {
+    width: 85%;
+    height: 80svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+}
+
+.visMenu {
+    background-color: rgb(50, 50, 50);
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+}
+
+.visMenu h2 {
+    color: white;
+    margin: 10px;
+    display: flex;
+    
+}
+
+.button {
+    height: 60px;
+    color: white;
+    background-color: rgb(35, 35, 35);
+    border: none;
+    border-radius: 2%;
+    margin: 3px;
+    font-size: 1.2rem;
+}
+
+.button:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+#readerContainer {
+    border-top: 2px solid rgb(35, 35, 35);;
+    margin: 10px 3px 3px 3px;
+    
+}
+
+#dataReader {
+    background-color: rgb(35, 35, 35);
+    margin-top: 10px;
+    border-radius: 2%;
+    color: white;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+.dataTitles {
+    font-size: 1rem;
+}
+
+footer {
+    background-color: rgb(50, 50, 50);
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.domain {
+    stroke: rgb(255, 255, 255);
+}
+
+.tick text {
+    fill: rgb(255, 255, 255);
+}
+
+.tick line {
+    stroke: rgb(30, 30, 30);
+}
+
+.axisLabels {
+    fill: rgb(255, 255, 255);
+}

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+nav {
+    background-color: rgb(50, 50, 50);
+    padding-left: 10px;
+    color: whitesmoke;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px black;
+}
+
+.visContainer {
+    display: flex;
+}
+
+.displayArea {
+    width: 85%;
+    height: 90svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visMenu {
+    background-color: rgb(50, 50, 50);
+    width: 15%;
+    border-left: solid 1px black;
+}
+
+footer {
+    background-color: rgb(50, 50, 50);
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: whitesmoke;
+    border-top: solid 1px black;
+}
+
+.domain {
+    stroke : rgb(255, 255, 255);
+}
+
+.tick text {
+    fill : rgb(255, 255, 255);
+}
+
+.tick line {
+    stroke : rgb(30, 30, 30);
+}
+
+.axisLabels {
+    fill: rgb(255, 255, 255);
+}

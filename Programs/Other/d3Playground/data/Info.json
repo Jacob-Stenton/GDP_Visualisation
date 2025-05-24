@@ -1,0 +1,259 @@
+{
+  "Info": [
+    {
+      "Year": 1949,
+      "Events": [
+        {
+          "Relation": "GDP",
+          "Title": "Post-War Reconstruction",
+          "Description": "The UK focused on reconstruction and rebuilding after World War II, leading to significant public and private investment."
+        }
+      ]
+    },
+    {
+      "Year": 1973,
+      "Events": [
+        {
+          "Relation": "GDP",
+          "Title": "UK Joins European Community",
+          "Description": "The UK's entry into the European Community (now the EU) facilitated trade and economic growth."
+        }
+      ]
+    },
+    {
+      "Year": 1979,
+      "Events": [
+        {
+          "Relation": "GDP",
+          "Title": "Margaret Thatcher's Government",
+          "Description": "The Conservative government, led by Margaret Thatcher, implemented free-market policies, impacting GDP growth."
+        }
+      ]
+    },
+    {
+      "Year": 1990,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Electricity Privatization",
+          "Description": "The UK's electricity industry was privatized, leading to market competition and changes in energy generation and distribution."
+        },
+        {
+          "Relation": "GDP",
+          "Title": "Recession",
+          "Description": "The UK experienced a recession due to high interest rates, inflation, and global downturn, impacting economic growth and GDP."
+        },
+        {
+          "Relation": "GDP",
+          "Title": "Conservative Economic Policies",
+          "Description": "The Conservative government, led by John Major, focused on privatization and market-oriented reforms."
+        }
+      ]
+    },
+    {
+      "Year": 1993,
+      "Events": [
+        {
+          "Relation": "GDP",
+          "Title": "European Union",
+          "Description": "The formation of the EU's Single Market facilitated trade and investment, affecting the UK's economy."
+        }
+      ]
+    },
+    {
+      "Year": 2001,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Climate Change Levy",
+          "Description": "A tax on energy use in industries, encouraging energy efficiency and renewable energy use."
+        },
+        {
+          "Relation": "GDP",
+          "Title": "September 11 Attacks",
+          "Description": "The terrorist attacks in the US led to global economic uncertainty, impacting the UK's economy."
+        }
+      ]
+    },
+    {
+      "Year": 2003,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Energy White Papers",
+          "Description": "Outlined the UK's energy strategy, emphasizing sustainability, energy efficiency, and the need to reduce carbon emissions."
+        },
+        {
+          "Relation": "GDP",
+          "Title": "Euro Adoption Rejection",
+          "Description": "The UK's decision to remain outside the Eurozone affected its economic relationships with the EU."
+        }
+      ]
+    },
+    {
+      "Year": 2005,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "EU Emissions Trading Scheme",
+          "Description": "Introduced a cap-and-trade system to reduce industrial emissions."
+        }
+      ]
+    },
+    {
+      "Year": 2006,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Climate Change and Sustainable Energy Act",
+          "Description": "Aimed to promote energy efficiency and renewable energy sources."
+        }
+      ]
+    },
+    {
+      "Year": 2007,
+      "Events": [
+        {
+          "Relation": "GDP",
+          "Title": "Global Financial Crisis",
+          "Description": "The collapse of major financial institutions and the ensuing global recession severely impacted the UK's GDP."
+        }
+      ]
+    },
+    {
+      "Year": 2008,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Climate Change Act",
+          "Description": "A legally binding framework to reduce carbon emissions, with implications for energy consumption."
+        }
+      ]
+    },
+    {
+      "Year": 2009,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Renewable Energy Directive",
+          "Description": "Required EU member states to increase renewable energy's share in their energy mix."
+        }
+      ]
+    },
+    {
+      "Year": 2010,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Closure of Coal-Fired Power Stations",
+          "Description": "Due to stricter environmental regulations and market changes."
+        },
+        {
+          "Relation": "GDP",
+          "Title": "Austerity Measures",
+          "Description": "The UK's austerity policies in response to the financial crisis influenced public spending and economic growth."
+        }
+      ]
+    },
+    {
+      "Year": 2012,
+      "Events": [
+        {
+          "Relation": "GDP",
+          "Title": "Olympics",
+          "Description": "Hosting the Summer Olympics in London stimulated economic activity and tourism."
+        }
+      ]
+    },
+    {
+      "Year": 2013,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Green Deal",
+          "Description": "A government initiative to encourage energy efficiency improvements in buildings and homes."
+        }
+      ]
+    },
+    {
+      "Year": 2014,
+      "Events": [
+        {
+          "Relation": "GDP",
+          "Title": "Scottish Independence Referendum",
+          "Description": "While the referendum result maintained the UK's integrity, the debate surrounding it influenced economic confidence."
+        }
+      ]
+    },
+    {
+      "Year": 2015,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Paris Agreement",
+          "Description": "Reinforced the UK's commitment to reducing carbon emissions and transitioning to a low-carbon economy."
+        }
+      ]
+    },
+    {
+      "Year": 2016,
+      "Events": [
+        {
+          "Relation": "GDP",
+          "Title": "Brexit Referendum",
+          "Description": "The decision to leave the EU caused significant economic uncertainty, impacting investment and GDP growth."
+        }
+      ]
+    },
+    {
+      "Year": 2019,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "UK's Net Zero Commitment",
+          "Description": "The UK's pledge to achieve net zero carbon emissions by 2050, influencing energy policies and consumption patterns."
+        },
+        {
+          "Relation": "GDP",
+          "Title": "Net Zero Commitments",
+          "Description": "The UK's focus on achieving net zero carbon emissions by 2050 influenced economic policies and industries, with implications for long-term GDP growth."
+        }
+      ]
+    },
+    {
+      "Year": 2020,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "COVID-19 Pandemic",
+          "Description": "Lockdowns and economic slowdowns during the pandemic led to a temporary but significant drop in energy consumption."
+        },
+        {
+          "Relation": "GDP",
+          "Title": "COVID-19 Pandemic",
+          "Description": "The global pandemic caused an unprecedented economic shock, leading to a significant contraction in the UK's GDP."
+        }
+      ]
+    },
+    {
+      "Year": 2021,
+      "Events": [
+        {
+          "Relation": "Energy",
+          "Title": "Renewable Energy Expansion",
+          "Description": "Continued investment in renewable energy sources, particularly wind and solar, affecting the energy mix and overall consumption."
+        },
+        {
+          "Relation": "GDP",
+          "Title": "Brexit Implementation",
+          "Description": "The completion of Brexit in 2021 marked a significant shift in trade and economic relationships with the EU, affecting the UK's GDP."
+        },
+        {
+          "Relation": "Energy",
+          "Title": "Energy White Paper",
+          "Description": "Outlined the UK's plans for a green industrial revolution and a transition to cleaner energy sources."
+        }
+      ]
+    }
+  ]
+}

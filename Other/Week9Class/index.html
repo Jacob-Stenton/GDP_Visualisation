@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v6.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+
+<script>
+    function loadEnergyChart() {
+
+        removeChart()
+
+        d3.csv("./chocData.csv", function (data) {
+
+            //domain scales
+            xScale.domain([0, data.length]);
+            yScale.domain([0, 100]); // apply domain to x & y axis
+
+            //creating axis
+            var xAxis = d3.axisBottom()
+                .tickArguments([new Date(d3.min(energyYears)), new Date(d3.max(energyYears))]) // numbers applied to axis
+                .ticks(21) // number of ticks on axis
+                .scale(xScale)
+
+
+            var yAxis = d3.axisLeft()
+                .tickArguments([d3.min(energy), d3.max(energy)])
+                .ticks(energy.length / 2)
+                .scale(yScale)
+
+
+            // //creating svg area
+            var svg = d3.select(".displayArea")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height + 60);
+
+            var g = svg.selectAll("g")
+                .data(energy)
+                .enter()
+                .append("g")
+                .attr("transform", function () {
+                    return `translate(10,0)`; //adds padding to data points
+                })
+
+            //appending axis to svg
+            svg.append("g")
+                .attr("transform", `translate(10, ${height - margin + padding})`) //applys margins and padding to axis
+                .call(xAxis);
+
+            svg.append("g")
+                .attr("transform", `translate(${margin},0)`)
+                .call(yAxis);
+
+            svg.append("text")
+                .attr("class", "axisLabels")
+                .attr("text-anchor", "end")
+                .attr("x", width / 2)
+                .attr("y", height + 10)
+                .text("Year");
+
+            svg.append("text")
+                .attr("class", "axisLabels")
+                .attr("text-anchor", "end")
+                .attr("y", 0)
+                .attr("x", -height / 2 + margin / 2)
+                .attr("dy", ".75em")
+                .attr("transform", "rotate(-90)")
+                .text("Petajoules(PJ)");
+
+
+            // appending data points - path
+            g.append("path")
+                .datum(energy)
+                .attr("fill", "none")
+                .attr("stroke", "orange")
+                .attr("stroke-width", 1.5)
+                .attr("d", d3.line()
+                    .x(function (d, i) { return xScale(new Date(energyYears[i])) })
+                    .y(function (d) { return yScale(d) })
+                )
+
+            g.append("rect") // creating each data point
+                .attr("x", function (d, i) { return xScale(new Date(energyYears[i])) - 12 })
+                .attr("y", margin)
+                .attr("width", (width - 150) / energyYears.length)
+                .attr("height", height - margin * 2)
+                .attr("fill", "rgba(0, 0, 0, 0)")
+                .on('mouseover', function (d, i) {
+                    yearReadOut.innerText = `${energyYears[i]}`
+                    dataReadOut.innerText = `Energy: ${d} PJ`
+                    checkInfo(Number(energyYears[i]), "Energy")
+                })
+                .on("mouseout", function () {
+                    checkInfo(Number(energyYears[i]), "Energy")
+                })
+                .on('click', function (d, i) {
+                    clearInfo()
+                    displayInfo(Number(energyYears[i]), "Energy")
+                })
+        })
+    }
+</script>
